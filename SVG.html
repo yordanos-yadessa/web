@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="discription"
+      content="a page demnestrating a SVG demonestartion"
+    />
+    <meta name="author" content="AASTU software department" />
+    <meta name="tags" content="" />
+
+    <title>SVG</title>
+  </head>
+  <body>
+    <nav>
+      <table width="100%" bgcolor="g">
+        <tr>
+          <td align="center">
+            <font color="white"
+              ><h1 align="center">Scalable Vector Graphics</h1></font
+            >
+          </td>
+        </tr>
+      </table>
+    </nav>
+
+    <table
+      width="70%"
+      align="center"
+      border="1"
+      cellspacing="100"
+      cellpadding="50"
+    >
+      <tr>
+        <td>
+          <svg width="250" height="250">
+            <circle
+              r="120"
+              cx="125"
+              cy="125"
+              fill="red"
+              stroke="black"
+              stroke-width="5"
+            />
+          </svg>
+          <h2 align="center">SVG CIRCLE</h2>
+        </td>
+        <td>
+          <svg width="250" height="250">
+            <rect
+              rx="25"
+              ry="25"
+              x="25"
+              y="25"
+              height="200"
+              width="200"
+              fill="yellow"
+              stroke="black"
+              stroke-width="5"
+            />
+          </svg>
+          <h2 align="center">SVG ROUNDED RECTANGLE</h2>
+        </td>
+        <td>
+          <svg width="250" height="250">
+            <line
+              x1="10"
+              y1="125"
+              x2="225"
+              y2="225"
+              stroke="green"
+              stroke-width="15px"
+            />
+          </svg>
+          <h2 align="center">SVG LINE</h2>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <svg width="250" height="250">
+            <polygon
+              fill="pink"
+              stroke="brown"
+              stroke-width="5"
+              points="50,50 125,125 200,50 200,200 125,125 50,200"
+            />
+          </svg>
+          <h2 align="center">SVG POLYGON</h2>
+        </td>
+
+        <td>
+          <svg width="250" height="250">
+            <ellipse cx="125" cy="125" rx="120" ry="50" fill="pink" />
+            <ellipse cx="125" cy="100" rx="110" ry="50" fill="grey" />
+            <ellipse cx="125" cy="80" rx="100" ry="50" fill="brown" />
+          </svg>
+          <h2 align="center">SVG ELLIPSES</h2>
+        </td>
+        <td>
+          <svg width="250" height="250">
+            <rect
+              x="25"
+              y="25"
+              width="200"
+              height="200"
+              fill="red"
+              stroke="black"
+              stroke-width="5"
+            />
+          </svg>
+          <h2 align="center">SVG RECTANGLE</h2>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <svg width="250" height="250">
+            <polyline
+              points="0,40 40,40 40,80 80,80 80,120 120,120 120,160 160,160 160,200 200,200 200,240"
+              fill="white"
+              stroke="red"
+              stroke-width="5"
+            />
+          </svg>
+          <h2 align="center">SVG FORMAL POLYLINE</h2>
+        </td>
+
+        <td>
+          <svg width="250" height="250">
+            <polyline
+              points="20,20 40,25 60,40 80,120 120,140 200,180 250,190"
+              fill="none"
+              stroke="black"
+              stroke-width="5"
+            />
+          </svg>
+          <h2 align="center">SVG INFORMAL POLYLINE</h2>
+        </td>
+
+        <td>
+          <svg width="250" height="250">
+            <ellipse cx="125" cy="125" rx="85" ry="55" fill="url(#grad1)" />
+
+            <text
+              fill="#ffffff"
+              font-size="45"
+              font-family="Verdana"
+              x="80"
+              y="140"
+            >
+              SVG
+            </text>
+            <defs>
+              <linearGradient id="grad1" x1="0%" y1="0%" x2="100%" y2="0%">
+                <stop
+                  offset="0%"
+                  style="stop-color: rgb(255, 255, 0); stop-opacity: 1"
+                />
+                <stop
+                  offset="100%"
+                  style="stop-color: rgb(255, 0, 0); stop-opacity: 1"
+                />
+              </linearGradient>
+            </defs>
+          </svg>
+          <h2 align="center">SVG LOGO</h2>
+        </td>
+      </tr>
+    </table>
+    <footer>
+      <h2 align="center">_____________</h2>
+      <table width="100%" bgcolor="#g">
+        <tr>
+          <td colspan="2"><hr /></td>
+        </tr>
+        <tr>
+          <td align="center" valign="top">
+            <ul type="none">
+              <li>
+                <a href="#"><font color="white">About us &nbsp</font></a>
+              </li>
+              <br />
+              <li>
+                <a href="#"><font color="white">Facebook &nbsp</font> </a>
+              </li>
+              <br />
+              <li>
+                <a href="#"><font color="white">Instagram</font></a>
+              </li>
+            </ul>
+          </td>
+        </tr>
+
+        <tr>
+          <td colspan="2" align="center">
+            <hr />
+          </td>
+        </tr>
+      </table>
+    </footer>
+  </body>
+</html>
